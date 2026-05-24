@@ -1,0 +1,47 @@
+# Cabal build artifacts
+dist-newstyle/
+dist/
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+cabal.project.local~
+.ghc.environment.*
+
+# GHC compilation artifacts
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Executables
+/task
+/tasker
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor artifacts
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+*.orig
+
+# User task data — never commit personal data
+*.csv
+tasks.csv
+
+# Claude Code local settings (machine-specific, may contain personal info)
+.claude/
+
+# Internal development notes and docs
+*.txt
+*.md
