@@ -45,3 +45,4 @@ tasks.csv
 # Internal development notes and docs
 *.txt
 *.md
+!README.md
